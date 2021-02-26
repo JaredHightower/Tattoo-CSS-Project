@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cardo:wght@700&family=Play:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefff9;
+}
+
+.background {
+  display: grid;
+  height: 100vh;
+  background-repeat: no-repeat;
+  grid-template-columns: 6fr 6fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  background-position: right;
+  background-size: 75vh;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/c9e2e4111421853.6001737971173.jpg);
+}
+
+.container {
+  background-color: #ab9e97;
+  position: absolute;
+  top: 12em;
+  left: 13em;
+  height: 20rem;
+  width: 40rem;
+  opacity: 98%;
+  z-index: 1;
+
+  box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.container--two {
+  background-color: #ddbeaa;
+  position: absolute;
+  top: 15em;
+  left: 10em;
+  height: 20em;
+  width: 40rem;
+  z-index: -1;
+  opacity: 60%;
+
+  box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -9px 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.container > .logo {
+  position: relative;
+  /* font-family: "Play", sans-serif; */
+  font-family: "Cardo", serif;
+  color: #161821;
+  font-weight: 200;
+  font-size: 8em;
+  top: 0.65em;
+  opacity: 83%;
+  margin-left: 0.75em;
+}
+
+span > .char--change {
+  color: black;
+}
